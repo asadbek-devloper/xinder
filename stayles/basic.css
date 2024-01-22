@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../Assest/fonts/Roboto-Regular.ttf);
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Roboto;
+  /* padding: 0 0 100px 0; */
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+button:active,
+button:focus,
+input,
+input:active,
+input:focus {
+  border: none;
+  outline: 1px solid black;
+}
+
+.container {
+  padding: 0 80px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title > h2 {
+  color: #0f172a;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.title > p {
+  display: flex;
+  padding: 0px 16px;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 20px;
+}
+
+.title span {
+  color: #2563eb;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.burger-icon {
+  display: none;
+}
